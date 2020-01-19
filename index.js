@@ -16,6 +16,7 @@ global.fetch = function(uri, options, ...args) {
 };
 
 const getFirebaseAccess = () => {
+  console.log('testing');
   return new Promise((resolve, reject) => {
     firebase
       .messaging()
